@@ -1,6 +1,9 @@
-{ "name": "ftp",
-  "version": "0.3.10",
+{ "name": "ftp3",
+  "version": "0.3.11",
   "author": "Brian White <mscdex@mscdex.net>",
+  "contributors": [
+    "Qi Liang <liangqi@cn.ibm.com>"
+  ],
   "description": "An FTP client module for node.js",
   "main": "./lib/connection",
   "engines": { "node" : ">=0.8.0" },
@@ -12,6 +15,6 @@
     "test": "node test/test.js"
   },
   "keywords": [ "ftp", "client", "transfer" ],
-  "licenses": [ { "type": "MIT", "url": "http://github.com/mscdex/node-ftp/raw/master/LICENSE" } ],
-  "repository" : { "type": "git", "url": "http://github.com/mscdex/node-ftp.git" }
+  "licenses": [ { "type": "MIT", "url": "http://github.com/std4lqi/node-ftp/raw/master/LICENSE" } ],
+  "repository" : { "type": "git", "url": "http://github.com/std4lqi/node-ftp.git" }
 }

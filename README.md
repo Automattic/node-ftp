@@ -3,6 +3,10 @@ Description
 
 node-ftp is an FTP client module for [node.js](http://nodejs.org/) that provides an asynchronous interface for communicating with an FTP server.
 
+It's forked from [node-ftp](https://github.com/mscdex/node-ftp) for the following issues
+
+* [Issue 228: ftp.get() hangs for 60 seconds in node v10, but not in node v8](https://github.com/mscdex/node-ftp/issues/228)
+
 
 Requirements
 ============
